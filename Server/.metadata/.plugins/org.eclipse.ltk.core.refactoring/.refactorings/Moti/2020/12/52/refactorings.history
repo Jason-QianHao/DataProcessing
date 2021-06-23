@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;addTrainData.ftl&apos; to &apos;templates&apos;&#x0D;&#x0A;－ 原始项目：“Moti”&#x0D;&#x0A;－ 目标元素：“templates”&#x0D;&#x0A;－ 原始元素：“addTrainData.ftl”" description="复制文件" element1="src/main/resources/templates/addTrainData.ftl" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1608866130004" target="/Moti/src/main/resources/templates" units="0" version="1.0"/>
+</session>

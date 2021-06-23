@@ -1,0 +1,22 @@
+server:
+   port: 80
+   context-path: /  
+   connection-timeout: 18000000
+spring:
+ #freemarker
+   freemarker :
+      allow-request-override : false
+      cache : true
+      check-template-location : true
+      charset : UTF-8 
+      content-type : text/html 
+      expose-request-attributes : false
+      expose-session-attributes : false
+      expose-spring-macro-helpers : false
+      suffix : .ftl
+      template-loader-path : classpath:/templates/
+ #配置上传文件大小 spring.http.multipart.maxFileSize = 10Mb  spring.http.multipart.maxRequestSize=100Mb  
+   http:
+      multipart:
+         maxFileSize : 100MB
+         maxRequestSize : 200MB
